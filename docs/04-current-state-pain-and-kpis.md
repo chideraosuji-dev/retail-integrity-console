@@ -1,14 +1,16 @@
 # Current-State Pain Points and KPI Baseline
 
 ## Purpose
-This document defines the main business pain points in the current-state process and introduces the initial KPI baseline areas that will later be used to evaluate the effectiveness of the future-state approach.
+This document defines hypothesized business pain points in the modeled current-state process and introduces the initial KPI baseline areas that will later be used to evaluate the effectiveness of the future-state approach.
+
+> **Project context:** Retail Integrity Console is a portfolio system-design project built around a modeled Canadian small-retailer scenario. Northlane Retail Group is an illustrative organization, not a verified client engagement. Stakeholder assumptions and process descriptions are design inputs, not validated findings from real interviews or production data. Metrics below describe candidate measures, not observed outcomes.
 
 ## Current-State Pain Points
 
 ### 1. Poor visibility into operational exceptions
 Operational issues are not consistently visible across functions, which makes it difficult to maintain a trusted view of open issues, ownership, and resolution status.
 
-**Business Impact:** Reduced control, delayed response, and inconsistent execution.
+**Potential Business Impact:** Reduced control, delayed response, and inconsistent execution.
 
 ### 2. High dependence on manual coordination
 Issue handling depends heavily on spreadsheets, messages, email, and person-to-person follow-up rather than a controlled workflow.
