@@ -1,7 +1,9 @@
 # Current-State Process Analysis
 
 ## Purpose
-This document outlines the current-state process environment for the Retail Operational Integrity & Exception Management case study. Its purpose is to show how operational issues are currently identified, communicated, handled, and resolved across functions, and where the main process, control, and visibility weaknesses exist.
+This document outlines the current-state process environment for the Retail Integrity Console modeled retail scenario. Its purpose is to show how operational issues are currently identified, communicated, handled, and resolved across functions, and where the main process, control, and visibility weaknesses exist.
+
+> **Project context:** Retail Integrity Console is a portfolio system-design project built around a modeled Canadian small-retailer scenario. Northlane Retail Group is an illustrative organization, not a verified client engagement. Stakeholder assumptions and process descriptions are design inputs, not validated findings from real interviews or production data. Metrics below describe candidate measures, not observed outcomes.
 
 ## Current-State Overview
 In the current state, operational changes and exception-related issues are handled across multiple teams, systems, and communication channels. Although core retail systems are already in place, the business does not operate with a single, consistently governed process for managing operational data updates and exception resolution.
@@ -9,7 +11,7 @@ In the current state, operational changes and exception-related issues are handl
 As a result, issue handling depends heavily on manual coordination, fragmented visibility, and inconsistent follow-through.
 
 ## Evidence-Based Current-State Context
-The current-state environment reflects a common operational pattern in Canadian SMB retail: core systems exist, but process execution remains under-integrated. This creates repeated conditions where operational updates, issue handling, and cross-functional coordination rely on manual effort rather than structured workflow control.
+The proposed current-state model reflects a plausible operational pattern for Canadian SMB retail: core systems exist, but process execution remains under-integrated. This creates repeated conditions where operational updates, issue handling, and cross-functional coordination rely on manual effort rather than structured workflow control.
 
 ## Current-State Process Flow
 
@@ -43,7 +45,7 @@ The current process environment is characterized by:
 - delayed validation and follow-through
 - recurring operational exceptions caused by process and control gaps
 
-## Quantified Current-State Pain
+## Potentially Measurable Current-State Pain
 At the current-state level, the business problem can be expressed through measurable operational impact areas such as:
 - number of unresolved exceptions at a given point in time
 - average exception resolution time
