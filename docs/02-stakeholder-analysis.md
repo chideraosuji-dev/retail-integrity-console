@@ -1,7 +1,9 @@
 # Stakeholder Analysis
 
 ## Purpose
-This document identifies the key stakeholders involved in the Retail Operational Integrity & Exception Management case study and assesses their role, business interest, level of influence, impact exposure, and importance to solution design and delivery.
+This document models the potential stakeholder groups involved in the Retail Integrity Console scenario and and considers their likely roles, interests, influence, impacts, and relevance to potential solution design. These are scenario assumptions to validate during actual discovery.
+
+> **Project context:** Retail Integrity Console is a portfolio system-design project built around a modeled Canadian small-retailer scenario. Northlane Retail Group is an illustrative organization, not a verified client engagement. Stakeholder assumptions and process descriptions are design inputs, not validated findings from real interviews or production data. Metrics below describe candidate measures, not observed outcomes.
 
 ## Stakeholder Groups
 
