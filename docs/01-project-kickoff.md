@@ -1,34 +1,48 @@
-# Solution Initiation Brief
+# Business Problem and Project Brief
 
-> **Scenario basis:** Northlane Retail Group is a fictional Canadian small-retailer used to define and test the solution approach. The workflows, stakeholder needs, and pain points below are working assumptions, not validated client findings. KPIs are proposed measures without observed baseline data.
+## Project
+**Retail Integrity Console** — Retail Operations and Exception Management
 
-## Project Title
-Retail Integrity Console
+## The Problem We Are Solving
 
-## Business Scenario
-Northlane Retail Group (fictional small-retailer scenario)
+Retail stores deal with operational problems every day: stock counts do not match, online prices are incorrect, product information is outdated, or a correction request does not reach the right person.
 
-## Project Context
-In the modeled retail environment, store operations, inventory activities, product updates, pricing changes, and issue resolution span multiple systems and teams. The scenario assumes that fragmented operational data and update workflows create recurring exceptions, limited visibility, and delayed issue resolution.
+When teams manage these problems through email, spreadsheets, or chat, important requests can be missed. Managers struggle to see which issues are open, who owns them, and whether they were fixed properly. Repeated errors can waste time, disrupt service, and create avoidable costs.
 
-## Scenario Assumptions
-For the purpose of design, we assume a small retailer using multiple channels and partially integrated workflows. Fragmented data handling, manual coordination, and inconsistent process controls are **hypotheses to test**, not verified observations from a client.
+## Example
 
-## Business Problem
-The working problem hypothesis is that fragmented retail data, manual handoffs, unclear ownership, and inconsistent process controls reduce exception visibility and increase resolution delays.
+A store associate notices that an online product price differs from the store price. The associate messages a supervisor, who forwards it to a systems administrator. Without a shared record, there is no clear way to see who owns the correction, whether it was completed, or whether the price was verified afterward.
 
-## Project Objective
-The objective of this project is to assess the current-state operational problem, identify the underlying business and systems gaps, and define a future-state solution approach that improves operational integrity, exception visibility, prioritization, ownership, and process control.
+## Product Objective
 
-## Analyst Mandate
-The analysis workstream maps the assumed current state, identifies root-cause hypotheses and stakeholder needs for validation, and defines requirements for a controlled future-state solution.
+Provide one clear workflow for reporting, assigning, prioritizing, fixing, and verifying operational issues, with management visibility into patterns and potential business impact.
 
-## Initial Scope Focus
-The initial scope addresses operational integrity and exception management across retail operations, with particular attention to breakdowns involving operational data, manual coordination, inconsistent update handling, and delayed resolution across business and systems workflows.
+## Initial Scope
 
-## Proposed Success Measures
-The effectiveness of the future-state approach will later be evaluated through measures such as:
-- reduction in unresolved operational exceptions
-- improvement in exception resolution time
-- improved visibility into issue ownership and status
-- reduction in repeated operational discrepancies
+- Central record of pricing, inventory, product-data, and other operational issues
+- Clear ownership, priority, status, and resolution history
+- Verification that corrective action has been completed
+- Dashboard showing backlog, aging, recurrence, and resolution performance
+- Estimates of potential financial exposure using documented assumptions
+
+## What We Need to Understand Before Building
+
+- Which issues occur most often and who reports them
+- How requests move between store teams and systems support
+- Where delays, duplicate work, or missed handoffs occur
+- Which approvals, checks, and access controls matter
+- What managers need to see to make faster decisions
+
+## Expected Business Value
+
+The solution aims to reduce missed handoffs, improve accountability, shorten resolution time, and make recurring problems easier to identify. These benefits will be evaluated after implementation rather than assumed in advance.
+
+## Measures of Success
+
+- Number of unresolved issues
+- Time from issue report to verified resolution
+- Frequency of repeat issues
+- Percentage of issues with an assigned owner
+- Percentage of resolutions with documented verification
+
+*Scenario note: Northlane Retail Group is an illustrative retailer used to develop these workflows and requirements.*
