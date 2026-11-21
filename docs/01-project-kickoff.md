@@ -24,7 +24,7 @@ The objective of this project is to assess the current-state operational problem
 The analysis workstream maps the assumed current state, identifies root-cause hypotheses and stakeholder needs for validation, and defines requirements for a controlled future-state solution.
 
 ## Initial Scope Focus
-This case study focuses on operational integrity and exception management across retail operations, with particular attention to breakdowns involving operational data, manual coordination, inconsistent update handling, and delayed resolution across business and systems workflows.
+The initial scope addresses operational integrity and exception management across retail operations, with particular attention to breakdowns involving operational data, manual coordination, inconsistent update handling, and delayed resolution across business and systems workflows.
 
 ## Proposed Success Measures
 The effectiveness of the future-state approach will later be evaluated through measures such as:
