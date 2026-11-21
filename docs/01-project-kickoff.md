@@ -1,38 +1,32 @@
-# Project Kickoff Brief
+# Solution Initiation Brief
 
-> **Project context:** Retail Integrity Console is a portfolio system-design project built around a modeled Canadian small-retailer scenario. Northlane Retail Group is an illustrative organization, not a verified client engagement. Stakeholder assumptions and process descriptions are design inputs, not validated findings from real interviews or production data. Metrics below describe candidate measures, not observed outcomes.
+> **Scenario basis:** Northlane Retail Group is a fictional Canadian small-retailer used to define and test the solution approach. The workflows, stakeholder needs, and pain points below are working assumptions, not validated client findings. KPIs are proposed measures without observed baseline data.
 
 ## Project Title
 Retail Integrity Console
 
-## Subtitle
-Retail Operations Exception Management — Business Analysis Foundation
-
-## Illustrative Scenario Organization
-Northlane Retail Group (fictional)
-
-## Project Perspective
-Business Systems Analyst / System Designer
+## Business Scenario
+Northlane Retail Group (fictional small-retailer scenario)
 
 ## Project Context
-In this modeled Canadian SMB retail scenario, Northlane Retail Group operates where store operations, inventory-related activities, product updates, pricing changes, and operational follow-through depend on multiple systems and cross-functional coordination. Although the business already uses core retail platforms, operational data and update activity remain fragmented across teams, tools, and workflows, creating recurring exceptions, limited visibility, and delayed issue resolution.
+In the modeled retail environment, store operations, inventory activities, product updates, pricing changes, and issue resolution span multiple systems and teams. The scenario assumes that fragmented operational data and update workflows create recurring exceptions, limited visibility, and delayed issue resolution.
 
 ## Scenario Assumptions
 For the purpose of design, we assume a small retailer using multiple channels and partially integrated workflows. Fragmented data handling, manual coordination, and inconsistent process controls are **hypotheses to test**, not verified observations from a client.
 
 ## Business Problem
-The modeled organization is assumed to experience operational inefficiencies because critical retail data and operational updates are not consistently governed across functions. Manual handoffs, under-integrated systems, inconsistent ownership, and weak process controls are contributing to repeated operational issues, poor exception visibility, and avoidable execution risk across retail operations.
+The working problem hypothesis is that fragmented retail data, manual handoffs, unclear ownership, and inconsistent process controls reduce exception visibility and increase resolution delays.
 
 ## Project Objective
 The objective of this project is to assess the current-state operational problem, identify the underlying business and systems gaps, and define a future-state solution approach that improves operational integrity, exception visibility, prioritization, ownership, and process control.
 
 ## Analyst Mandate
-For this portfolio exercise, the analyst's role is to map the modeled current state, investigate hypothesized root causes of operational exceptions, identify stakeholder needs to validate, and define a structured future-state approach through business analysis artifacts and solution-focused documentation.
+The analysis workstream maps the assumed current state, identifies root-cause hypotheses and stakeholder needs for validation, and defines requirements for a controlled future-state solution.
 
 ## Initial Scope Focus
 This case study focuses on operational integrity and exception management across retail operations, with particular attention to breakdowns involving operational data, manual coordination, inconsistent update handling, and delayed resolution across business and systems workflows.
 
-## Initial Success Measures
+## Proposed Success Measures
 The effectiveness of the future-state approach will later be evaluated through measures such as:
 - reduction in unresolved operational exceptions
 - improvement in exception resolution time
