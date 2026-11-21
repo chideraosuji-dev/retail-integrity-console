@@ -1,9 +1,9 @@
 # Stakeholder Analysis
 
 ## Purpose
-This document models the potential stakeholder groups involved in the Retail Integrity Console scenario and and considers their likely roles, interests, influence, impacts, and relevance to potential solution design. These are scenario assumptions to validate during actual discovery.
+This assessment identifies the stakeholder groups relevant to exception management, their responsibilities, decision influence, operational needs, and engagement priorities. The role profiles are scenario assumptions requiring validation during discovery.
 
-> **Project context:** Retail Integrity Console is a portfolio system-design project built around a modeled Canadian small-retailer scenario. Northlane Retail Group is an illustrative organization, not a verified client engagement. Stakeholder assumptions and process descriptions are design inputs, not validated findings from real interviews or production data. Metrics below describe candidate measures, not observed outcomes.
+> **Scenario basis:** Northlane Retail Group is a fictional Canadian small-retailer used to define and test the solution approach. The workflows, stakeholder needs, and pain points below are working assumptions, not validated client findings. KPIs are proposed measures without observed baseline data.
 
 ## Stakeholder Groups
 
@@ -15,7 +15,7 @@ This document models the potential stakeholder groups involved in the Retail Int
 **Key Concern:** Store issues are often identified late, managed through manual follow-up, and resolved inconsistently across teams.  
 **Engagement Approach:** Primary stakeholder for discovery, current-state pain points, workflow validation, and future-state review.  
 **Decision Relevance:** Provides operational input into exception prioritization, escalation needs, and process practicality.  
-**Risk if Misaligned:** The proposed solution may look good on paper but fail in real day-to-day store operations.
+**Risk if Misaligned:** The design may overlook the constraints of day-to-day store operations.
 
 ### 2. Inventory and Fulfillment Coordinator
 **Role:** Supports stock accuracy, order handling, replenishment follow-through, and exception resolution across inventory-related activities.  
@@ -45,7 +45,7 @@ This document models the potential stakeholder groups involved in the Retail Int
 **Key Concern:** Repeated operational issues reduce efficiency, consume management attention, and negatively affect customer experience and business reliability.  
 **Engagement Approach:** Executive stakeholder for business priorities, expected value, and final solution alignment.  
 **Decision Relevance:** Confirms scope priorities, business objectives, and desired management outcomes.  
-**Risk if Misaligned:** The case study may solve operational pain without clearly linking it to business value.
+**Risk if Misaligned:** The solution may address workflow symptoms without delivering demonstrable business value.
 
 ## Secondary Stakeholders
 
@@ -73,7 +73,7 @@ This document models the potential stakeholder groups involved in the Retail Int
 
 The problem is cross-functional in nature. Business users experience the operational pain directly, while system control, update ownership, data handling, and exception routing are distributed across multiple roles. This makes stakeholder alignment essential to accurate current-state analysis, realistic future-state design, and effective solution framing.
 
-From a Business Analysis perspective, the most critical stakeholders for this case study are:
+Priority stakeholders for discovery and solution validation are:
 - Store Operations Manager
 - Inventory and Fulfillment Coordinator
 - E-commerce / Systems Support Lead
