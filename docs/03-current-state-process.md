@@ -1,17 +1,17 @@
 # Current-State Process Analysis
 
 ## Purpose
-This document outlines the current-state process environment for the Retail Integrity Console modeled retail scenario. Its purpose is to show how operational issues are currently identified, communicated, handled, and resolved across functions, and where the main process, control, and visibility weaknesses exist.
+This document defines the assumed current-state exception-handling workflow and identifies potential gaps in routing, ownership, validation, and management visibility.
 
-> **Project context:** Retail Integrity Console is a portfolio system-design project built around a modeled Canadian small-retailer scenario. Northlane Retail Group is an illustrative organization, not a verified client engagement. Stakeholder assumptions and process descriptions are design inputs, not validated findings from real interviews or production data. Metrics below describe candidate measures, not observed outcomes.
+> **Scenario basis:** Northlane Retail Group is a fictional Canadian small-retailer used to define and test the solution approach. The workflows, stakeholder needs, and pain points below are working assumptions, not validated client findings. KPIs are proposed measures without observed baseline data.
 
 ## Current-State Overview
-In the current state, operational changes and exception-related issues are handled across multiple teams, systems, and communication channels. Although core retail systems are already in place, the business does not operate with a single, consistently governed process for managing operational data updates and exception resolution.
+Under the working scenario, operational changes and exception-related issues move across multiple teams, systems, and communication channels. The scenario assumes that core retail systems exist but a common, governed exception-resolution process does not.
 
 As a result, issue handling depends heavily on manual coordination, fragmented visibility, and inconsistent follow-through.
 
-## Evidence-Based Current-State Context
-The proposed current-state model reflects a plausible operational pattern for Canadian SMB retail: core systems exist, but process execution remains under-integrated. This creates repeated conditions where operational updates, issue handling, and cross-functional coordination rely on manual effort rather than structured workflow control.
+## Current-State Assumptions
+This working model assumes partially integrated tools, manual handoffs, and inconsistent follow-through. These patterns are hypotheses to test in stakeholder discovery and are not presented as findings from a live retail operation.
 
 ## Current-State Process Flow
 
@@ -37,7 +37,7 @@ In some cases, the issue is confirmed as resolved. In other cases, validation is
 Because visibility, ownership, and process control are weak, some issues are not fully resolved and may return later as repeated operational exceptions.
 
 ## Current-State Characteristics
-The current process environment is characterized by:
+The modeled workflow includes the following potential weaknesses:
 - fragmented operational visibility
 - manual handoffs between business and system owners
 - inconsistent ownership and prioritization
@@ -71,7 +71,7 @@ Urgency and business impact are not always evaluated through a shared framework,
 Responsibility for action, follow-up, and validation may be distributed across multiple roles without clear accountability.
 
 ### Gap 5: Resolution tracking is weak
-The business does not consistently maintain structured visibility into issue status, aging, or recurrence.
+The proposed current state lacks consistent visibility into issue status, aging, and recurrence.
 
 ## Baseline KPI Candidates
 The current-state process suggests the following baseline KPI areas for later solution evaluation:
@@ -83,6 +83,6 @@ The current-state process suggests the following baseline KPI areas for later so
 - manual follow-up dependency
 
 ## Analysis Summary
-The current-state process is not failing because the business lacks systems altogether. The core problem is that operational integrity is weakened by fragmented data handling, under-integrated workflows, manual request routing, and limited exception governance.
+The working hypothesis is that the primary constraint is not the absence of retail systems, but limited coordination between them: fragmented data handling, manual routing, and inconsistent exception governance.
 
 This creates a process environment in which issues are often managed reactively rather than through structured visibility, prioritization, ownership, control, and measurable follow-through.
