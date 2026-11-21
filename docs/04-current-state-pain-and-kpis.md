@@ -1,66 +1,42 @@
-# Operational Pain Points and KPI Framework
+# Operational Pain Points and Success Measures
 
-## Purpose
-This document defines the modeled operational pain points and proposed performance measures for evaluating a future exception-management solution. Quantitative baselines remain to be established.
+## The Business Cost of Unresolved Issues
 
-> **Scenario basis:** Northlane Retail Group is a fictional Canadian small-retailer used to define and test the solution approach. The workflows, stakeholder needs, and pain points below are working assumptions, not validated client findings. KPIs are proposed measures without observed baseline data.
+A single stock discrepancy, incorrect price, or outdated product record may appear minor. But when issues are hard to report, assign, and verify, employees spend time following up, managers lose visibility, and the same errors may recur.
 
-## Current-State Pain Points
+Retail Integrity Console is designed to make those problems easier to manage and their business impact easier to understand.
 
-### 1. Poor visibility into operational exceptions
-Operational issues are not consistently visible across functions, which makes it difficult to maintain a trusted view of open issues, ownership, and resolution status.
+## Problems to Address
 
-**Potential Business Impact:** Reduced control, delayed response, and inconsistent execution.
+| Operational problem | Why it matters | Proposed response |
+| --- | --- | --- |
+| Issues arrive through different channels | Reports can be missed, duplicated, or forgotten | One shared issue register |
+| No clear person responsible | Work stalls and follow-ups become repetitive | Named owner and status for each issue |
+| No consistent prioritization | Important corrections may be delayed | Priority based on urgency and business impact |
+| Fixes are not always verified | An error may remain unresolved or return | Explicit resolution and verification step |
+| Managers cannot see the backlog | Problems are harder to escalate and resource | Dashboard with aging, status, and ownership |
+| Repeat issues are not connected | Teams keep correcting symptoms | Recurrence and category tracking |
 
-### 2. High dependence on manual coordination
-Issue handling depends heavily on spreadsheets, messages, email, and person-to-person follow-up rather than a controlled workflow.
+## Proposed KPIs
 
-**Potential Business Impact:** Increased delays, rework, and avoidable operational effort.
+| KPI | What it answers | How to measure it |
+| --- | --- | --- |
+| **Open issue backlog** | How many problems remain unresolved? | Count of open issues at the reporting date |
+| **Time to verified resolution** | How quickly are problems truly fixed? | Time from reporting to confirmed resolution |
+| **Repeat issue rate** | Are the same problems coming back? | Repeat cases within an agreed reporting period |
+| **Ownership coverage** | Does every issue have a person responsible? | Assigned active issues ÷ all active issues |
+| **Verification rate** | Are fixes being checked? | Verified closures ÷ all closures |
+| **Manual follow-up** | How much chasing is required? | Follow-up contacts or handoffs per issue |
+| **Estimated financial exposure** | Which issues could create avoidable costs? | Documented estimates using issue-specific assumptions |
 
-### 3. Inconsistent prioritization of issues
-Not all operational issues are assessed through a shared priority framework, which can result in low-value items receiving attention while higher-impact issues remain unresolved.
+## How We Will Evaluate Progress
 
-**Business Impact:** Misallocation of attention, slower response to important issues, and uneven service reliability.
+For each KPI, establish a measurement definition, collect a baseline when real operating data becomes available, and compare results after implementation.
 
-### 4. Weak ownership and accountability
-Responsibility for action, validation, and follow-through is not always clearly defined across business and system-related functions.
+Useful evidence may include issue logs, timestamps, ownership changes, verification records, and approved financial assumptions. **No performance improvements are claimed before they have been measured.**
 
-**Business Impact:** Unclear accountability, repeated escalation, and recurring unresolved issues.
+## Business Outcome
 
-### 5. Limited resolution tracking
-The business does not consistently maintain structured visibility into issue aging, recurrence, or time-to-resolution.
+The intended result is a more controlled operation: fewer lost requests, clearer accountability, faster resolution, better visibility for managers, and a stronger basis for preventing repeat problems.
 
-**Business Impact:** Low traceability, weak management reporting, and difficulty identifying improvement opportunities.
-
-### 6. Recurring operational discrepancies
-Because process controls are weak, some issues return repeatedly in slightly different forms across pricing, product data, inventory, and operational execution.
-
-**Business Impact:** Repeated operational disruption, loss of trust in process reliability, and unnecessary manual effort.
-
-## Proposed Performance Indicators
-
-The following indicators are proposed for future measurement. Definitions and baseline values will require validation against actual operational data.
-
-### KPI 1: Open operational exceptions
-Tracks the number of unresolved issues at a given point in time.
-
-### KPI 2: Exception resolution time
-Tracks the time taken to move an issue from identification to confirmed resolution.
-
-### KPI 3: Repeated exception frequency
-Tracks how often similar issues reappear over a defined period.
-
-### KPI 4: Ownership visibility
-Tracks whether issue ownership is clearly assigned and visible for active exceptions.
-
-### KPI 5: Manual follow-up dependency
-Tracks the extent to which issue handling depends on manual reminders, informal communication, or repeated escalation.
-
-### KPI 6: Status traceability
-Tracks whether issue progress and resolution status can be clearly followed across the process.
-
-## Measurement Summary
-
-The scenario highlights a potential management-control gap: limited ability to detect, classify, prioritize, assign, and track operational issues consistently.
-
-The KPI areas above will support later evaluation of whether the future-state approach improves visibility, control, accountability, and execution reliability.
+*Scenario note: The initial pain points are based on the illustrative Northlane Retail Group workflow. KPI baselines will be established from actual data if the solution is deployed.*
